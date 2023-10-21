@@ -19,5 +19,15 @@ Install
   yarn add dotenv
   yarn add prettier prettier-plugin-solidity
 
+  Typescript:
+  yarn add typescript
+  yarn add ts-node
+  yarn add @types/fs-extra
+
   Compiling :
   yarn compile (command added in package.json)
+
+  Running:
+  node deploy.js
+  or
+  yarn ts-node deploy.ts
